@@ -5,8 +5,8 @@ module.exports = {
 
   afterInstall () {
     return this.addBowerPackageToProject ([
-      {name: 'justgage'},
-      {name: 'raphael'}
+      {name: 'justgage', target: '1.0.0'},
+      {name: 'raphael', target: '2.2.7'}
     ]);
   }
 };
