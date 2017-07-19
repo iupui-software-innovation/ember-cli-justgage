@@ -2,6 +2,8 @@
   "name": "ember-cli-justgage",
   "dependencies": {
     "ember": "~2.10.0",
-    "ember-cli-shims": "0.1.3"
+    "ember-cli-shims": "0.1.3",
+    "justgage": "*",
+    "raphael": "^2.2.7"
   }
 }
