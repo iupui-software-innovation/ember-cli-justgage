@@ -22,6 +22,16 @@ export default Ember.Component.extend({
     this.set ('gauge', gauge);
   },
 
+  willDestroyElement() {
+    let gauge = this.get ('gauge');
+
+    if (gauge) {
+      gauge.destroy ();
+    }
+
+    this._super(...arguments);
+  },
+
   _getOptionsHash () {
     // The required options.
     let opts = {
