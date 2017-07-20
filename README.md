@@ -1,27 +1,18 @@
 # ember-cli-justgage
 
-This README outlines the details of collaborating on this Ember addon.
+EmberJS add-on for [justGage](http://justgage.com/).
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-cli-justgage`
-* `npm install`
-* `bower install`
+```
+ember install ember-cli-justgage --save-dev
+```
 
-## Running
+## Basic Usage
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+```
+{{just-gage value=value}}
+```
 
-## Running Tests
-
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+See [justGage](http://justgage.com/) for a complete list of options support by the
+component.
